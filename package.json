@@ -1,0 +1,21 @@
+{
+  "name": "my-awesome-demo-library",
+  "version": "1.0.0",
+  "description": "This is the development Project for the Demo UI5 Library.",
+  "scripts": {
+    "preinstall": "(cd my.control.library/ ; npm install) && (cd my.customer.theme/ ; npm rm --save @sovanta/my-base-theme) && npm rm --save @sovanta/my-control-library @sovanta/my-base-theme @sovanta/my-customer-theme",
+    "postinstall": "npm install my.control.library my.base.theme my.customer.theme && (cd my.customer.theme/ ; npm install ../my.base.theme)",
+    "serve": "npx ui5 serve",
+    "build": "npx ui5 build --all"
+  },
+  "dependencies": {
+    "@sovanta/my-base-theme": "file:my.base.theme",
+    "@sovanta/my-control-library": "file:my.control.library",
+    "@sovanta/my-customer-theme": "file:my.customer.theme",
+    "@ui5/cli": "1.0.0"
+  },
+  "devDependencies": {},
+  "homepage": "https://sovanta.com",
+  "author": "sovanta AG",
+  "license": "MIT"
+}

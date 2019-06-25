@@ -1,0 +1,7 @@
+
+# Webstorm project files
+.idea
+etc/
+package-lock.json
+node_modules
+dist
