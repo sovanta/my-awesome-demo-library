@@ -1,9 +1,9 @@
 [submodule "my.base.theme"]
 	path = my.base.theme
-	url = git@github.com:sovanta/my-base-theme.git
+	url = https://github.com/sovanta/my-base-theme.git
 [submodule "my.customer.theme"]
 	path = my.customer.theme
-	url = git@github.com:sovanta/my-customer-theme.git
+	url = https://github.com/sovanta/my-customer-theme.git
 [submodule "my.control.library"]
 	path = my.control.library
-	url = git@github.com:sovanta/my-control-library.git
+	url = https://github.com/sovanta/my-control-library.git
