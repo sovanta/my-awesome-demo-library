@@ -27,7 +27,7 @@ To work with this Project you'll need the following modules on your machine:
 For more Information about the Development take a look into the Submodules and the Readme files contained there:
 - Library - Control Development  `/my.control.library`
 - Base Theme - Theme/Styling Development  `/my.base.theme`
-- Build - Library Build  `/sov.build.library`
+- Customer Theme - Theme/Styling Development  `/my.customer.theme`
 
 To serve the current Samples of the Library just run the following command, and navigate to your Control Sample:
 
