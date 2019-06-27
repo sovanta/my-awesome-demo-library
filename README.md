@@ -6,8 +6,7 @@ This is the development Project for the Demo UI5 Library.
       - [Node.js](#nodejs)
    2. [Prerequisites](#prerequisites)
    3. [Development](#development)
-   4. [Versions](#versions)
-   5. [Authors](#authors)
+   4. [Authors](#authors)
 
 ### Installing
 - Node.js
@@ -16,6 +15,13 @@ This is the development Project for the Demo UI5 Library.
     
     ```https://nodejs.org/en/```
     
+- Dependencies
+
+    To install all the dependencies just run.
+    
+    ```npm install```
+    
+    inside the root folder
     
 ### Prerequisites
 To work with this Project you'll need the following modules on your machine:
@@ -37,3 +43,4 @@ To serve the current Samples of the Library just run the following command, and 
 
 * **Deniz Cakici** <deniz.cakici@sovanta.com>
 * **Sebastian Mahr** <sebastian.mahr@sovanta.com>
+* **Daniel Bathel** <daniel.barthel@sovanta.com>
